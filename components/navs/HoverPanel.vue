@@ -150,10 +150,16 @@ export default Vue.extend({
         background: linear-gradient(
             #880e4f 0%,
             #006064 10%,
-            #00bcd4,
             #006064 90%,
             #880e4f 100%
         );
+        // background: linear-gradient(
+        //     #880e4f 0%,
+        //     #006064 10%,
+        //     #00bcd4,
+        //     #006064 90%,
+        //     #880e4f 100%
+        // );
         transition: transform 0.2s;
     }
     & .Handle {

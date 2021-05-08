@@ -37,9 +37,13 @@
             height: 72%;
             border-radius: 50%;
             font-size: 38px;
+            font-weight: bold;
 			color: #d81b60;
 			background-color: #00838f;
             // background: linear-gradient(#006064 25%, #00bcd4 50%, #006064 75%);
+             &::before {
+                             content: "S";
+             }
         }
         & span:nth-child(2) {
             position: absolute;
@@ -167,3 +171,4 @@
 
 
 // }
+

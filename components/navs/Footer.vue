@@ -4,7 +4,7 @@
         class="Footer t-blue-grey text-center"
     >
         <div>
-            <span class="icon-copyright mr-4">2020 scavorb</span>
+            <span class="icon-copyright mr-4">2021 scavorb</span>
         </div>
         <div class="mt-4">
             <router-link class="t-blue--3 no-deco" to="/privacy">Privacy</router-link>

@@ -63,7 +63,7 @@ export default Vue.extend({
 
 })
 </script>
-<style  lang="scss" scoped>
+<style  lang="scss">
 .BottomNav {
     position: fixed;
     bottom: 0;

@@ -2,6 +2,7 @@
     <Container ownID="MC-Srv">
         <div class="Srv">
             <h1 class="text-center t-blue-grey">SERVICES I OFFER</h1>
+            <p>In the modern world, an organization's digital presence is integral to its success. A well-crafted website is the cornerstone of that presence. While creating the perfect website can seem like an impossible task, we are one of the abundance of teams that specialize in web development in order to make it easier.</p>
         </div>
     </Container>
 </template>

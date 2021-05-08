@@ -8,11 +8,13 @@ const routes = [
         path: '/profile/:username',
         component: () => import(/* webpackPrefetch: true */'@/views/profile/Index.vue').then(m => m.default || m),
         // alias: '/:username',
+        meta: { layout: "ProfileLayout" },
         children: [
             {
                 path: '',
                 name: 'user-profile',
                 component: () => import(/*webpackPrefetch: true, webpackChunkName: "prf" */ '@/views/profile/Profile.vue').then(m => m.default || m),
+                meta: { layout: "ProfileLayout" },
                 beforeEnter: (to, from, next) => {
                     // const profile: any = $Profile.data as object
                     // const fetched = profile && profile.username === to.params.username
@@ -33,7 +35,8 @@ const routes = [
                         //     // $Notify.error('A connection error occured')
                         //     next(false)
                         // }
-                        if (!loaded) {
+                        if (!loaded)
+                        {
                             $Notify.error('unable to connect')
                         }
                     })

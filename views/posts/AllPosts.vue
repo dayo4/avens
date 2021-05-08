@@ -116,7 +116,7 @@ export default Vue.extend({
         //     })
         // })
         $Obstacl.create('#MC-AllPosts', {
-            injectHTML: this.$appLogo
+            injectHTML: this.$appLogo('logo-trans-2 logo-large logo-fast')
         })
         $Posts.fetchAll({}, true).then(ok => $Obstacl.destroy('#MC-AllPosts'))
         // this.$gtag.event('login', { method: 'Google' })
