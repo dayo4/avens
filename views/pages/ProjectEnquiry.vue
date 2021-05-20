@@ -1,5 +1,5 @@
 <template>
-    <Container ownID="MC-About">
+    <Container ownID="MC-ProjEnq">
         <div v-html="$appLogo('logo-static')" class="flex j-c-center pt-5 noselect"></div>
         <!-- <div class="Title text-center t-blue-grey"></div> -->
 
@@ -30,7 +30,7 @@ export default Vue.extend({
         Container,
     },
     metaInfo () {
-        return $General.metaInfo({ title: "scavorb - info" })
+        return $General.metaInfo({ title: "Project | scavorb" })
     },
 
     data () {

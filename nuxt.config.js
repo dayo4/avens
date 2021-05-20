@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'scavorb - websites and web app development',
+    // title: 'scavorb - websites and web app development',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "scavorb - websites and web apps development for artists and designers. Have your personal and business website's UI professionally designed for the best user experience and satisfaction." }
+      // { hid: 'description', name: 'description', content: "scavorb - websites and web apps development for artists and designers. Have your personal and business website's UI professionally designed for the best user experience and satisfaction." }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

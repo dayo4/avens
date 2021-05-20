@@ -1,11 +1,13 @@
 <template>
     <Container ownID="MC-About">
+        <div class="BG-About bg-img-masked bg-pink--3">
+
         <div v-html="$appLogo('logo-static')" class="flex j-c-center pt-5 noselect"></div>
 
         <div class="Title text-center t-blue-grey">SCAVORB</div>
 
         <h1
-            class="Head text-center page-head-bg-grad t-blue-grey font-9 px-5 py-8"
+            class="Head text-center page-head-bg-grad t-white font-9 px-5 py-8"
         >A Little More Info</h1>
 
         <section class="flex j-c-center wrap">
@@ -56,6 +58,8 @@
                 </div>
             </div>
         </section>
+
+        </div>
     </Container>
 </template>
 <script lang="ts">
@@ -71,8 +75,8 @@ export default Vue.extend({
     components: {
         Container,
     },
-    metaInfo () {
-        return $General.metaInfo({ title: "scavorb - info" })
+    head () {
+        return $General.metaInfo({ title: "About | scavorb" })
     },
 
     data () {
@@ -120,6 +124,11 @@ export default Vue.extend({
 });
 </script>
 <style lang="scss" scoped>
+.BG-About {
+    background-image: url("/defaults/usr/adedayo.jpg");
+    background-attachment: fixed;
+}
+
 .Title {
     margin: 6px 0 40px 0;
     font-size: 16px;

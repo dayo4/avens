@@ -23,17 +23,8 @@
 
             <div class="FormCont flex j-c-center bg-white h-full">
                 <div class="Pillar xs11 sm9 md7 lg5">
-                    <!-- <div class="Logo"> -->
-                    <div class="Logo logo-base logo-small shadow-5">
-                        <span>
-                            <span>
-                                <b>S</b>
-                            </span>
-                            <span></span>
-                        </span>
-                        <span></span>
-                    </div>
-                    <!-- </div> -->
+
+                    <div v-html="$appLogo('logo-small')" class="Logo"></div>
 
                     <!--current mode Title -->
                     <div class="Title flex text-center noselect">

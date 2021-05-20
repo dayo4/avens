@@ -38,8 +38,8 @@ export default Vue.extend({
     Container,
     Contact,
   },
-  metaInfo() {
-    return $General.metaInfo({ title: "Get in touch with us" });
+  head() {
+    return $General.metaInfo({ title: "Get in touch with us | scavorb" });
   },
 });
 </script>

@@ -26,8 +26,8 @@ export class General {
     /* vue-meta abstraction method */
     metaInfo (data: MyMetaInfo) {
         const defaults = {
-            title: 'scavorb - web design and web app development',
-            content: "scavorb - websites design, full-stack web applications development and consulting service. Have your personal and business website's UI professionally designed for the best user experience and satisfaction.",
+            title: 'scavorb - websites and web app development',
+            content: "scavorb - websites and web apps development for artists and designers. Have your personal and business website's UI professionally designed for the best user experience and satisfaction.",
             image: 'https://www.scavorb.com/defaults/pgs/scavorb_website_design_and_development.jpg',
             url: '',
             type: 'website'
